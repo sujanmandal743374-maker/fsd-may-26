@@ -1,0 +1,12 @@
+1. Links in Linux - hard links and soft links
+2. Get vs Post -> In forms and in general
+3. Iframe 
+4. Indepth about metatags
+5. Forms few more attributes (study during JS forms)
+6. CSS units
+7. not or or in media queries
+
+
+Homework -> 
+1. Sticky vs fixed 
+2. how to integrate font awesome icons

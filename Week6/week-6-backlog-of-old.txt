@@ -1,0 +1,12 @@
+Backlog -> 
+    Img background properties
+    Typegraphivs -> 
+        1. font-size 
+        2. font-family
+        3. font-weight
+    applying css to header, table, form
+    
+    Project 
+
+    ctrl + shift + f -> cmd + shift + f
+

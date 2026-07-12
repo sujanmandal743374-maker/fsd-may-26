@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main-div{
+            background-image: url("https://media.istockphoto.com/id/502426696/photo/beautiful-seascape.jpg?s=2048x2048&w=is&k=20&c=_4MtYcIXBvjRS1udENVsMdt4cCyiGzl-KdCwnK9vxXk=");
+            background-position: center;
+            text-align: right;
+        }
+        /* th, td{
+            width: 300px;
+            text-align: right;
+        } */
+
+        #table-1, #table-2{
+            border: 1px solid red;
+        }
+
+        #table-1 *, #table-2 * {
+            border: 1px solid red;
+        }
+
+        th, td{
+            width: 300px;
+        }
+        #table-1 th, #table-1 td{
+            text-align: center;
+        }
+        #table-2 th, #table-2 td{
+            text-align: right;
+        }
+        /* outline: none; */
+        /* border: 2px solid red; */
+        /* input:focus-visible{
+            outline: green auto 2px;
+        } */
+
+        /* input:hover{
+            border-color: red;
+        } */
+
+        input:focus{
+            border-color: purple;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-div">
+        <h1>This is a big div</h1>
+        <h2>We are experimenting with backgrounds</h2>
+        <h2>We are experimenting with backgrounds</h2>
+        <h2>We are experimenting with backgrounds</h2>
+        <h2>We are experimenting with backgrounds</h2>
+        <h2>We are experimenting with backgrounds</h2>
+        <h2>We are experimenting with backgrounds</h2>
+        <h2>We are experimenting with backgrounds</h2>
+    </div>
+
+    <div class="main-div">
+        <h1>Limited</h1>
+        <div style="font-weight: 900; font-size: 32px;">this is normal div</div>
+    </div>
+
+    <table  id="table-1">
+        <tr>
+            <th>Year</th>
+            <th>Institute</th>
+            <th>Percentage</th>
+        </tr>
+        <tr>
+            <td>2026</td>
+            <td>Random</td>
+            <td>5%</td>
+        </tr>
+        <tr>
+            <td>2024</td>
+            <td>school</td>
+            <td>50%</td>
+        </tr>
+    </table>
+    <br><br>
+    <table  id="table-2" >
+        <tr>
+            <th>Year</th>
+            <th>Institute</th>
+            <th>Percentage</th>
+        </tr>
+        <tr>
+            <td>2026</td>
+            <td>Random</td>
+            <td>5%</td>
+        </tr>
+        <tr>
+            <td>2024</td>
+            <td>school</td>
+            <td>50%</td>
+        </tr>
+    </table>
+    <table  border="1" >
+        <tr>
+            <th>Year</th>
+            <th>Institute</th>
+            <th>Percentage</th>
+        </tr>
+        <tr>
+            <td>2026</td>
+            <td>Random</td>
+            <td>5%</td>
+        </tr>
+        <tr>
+            <td>2024</td>
+            <td>school</td>
+            <td>50%</td>
+        </tr>
+    </table>
+
+    <form action="">
+        <input type="text" >
+    </form>
+</body>
+</html>

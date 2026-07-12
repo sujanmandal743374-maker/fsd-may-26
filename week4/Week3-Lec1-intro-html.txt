@@ -1,0 +1,78 @@
+Getting Started with HTML5
+
+HTML and HTML5 -> 
+    versions -> 
+    Software cannot exist without versions -> 
+
+    Android versions -> jellybean, 
+    version??
+
+Emmet -> 
+    Pattern building 
+    IDE -> pattern and if you invoke that pattern 
+    I will give you some generated or pre written 
+
+Tag -> 
+    HTML -> HyperText Markup Language
+
+<h1> -> Tag 
+<h1> Heading </h1> -> element 
+
+
+metadetails and etc -> 
+    Information about information |
+    Data about data 
+
+List -> 
+    1. unordered List
+    2. ordered list 
+    3. description list 
+
+
+
+Backlog  - 
+    1. Some basic tags (em, strong, b)
+    2. inline vs block (v.imp)
+    3. linking multiple webpages
+    4. light inline styling
+
+Absolute vs relative paths -> in depth discussion
+
+
+/Users/namanjindal/Documents/pw/fsd-may-26/index.html
+/Users/namanjindal/Documents/pw/fsd-may-26/Week1/intro-notes.txt
+
+1. Semantics plays a good roleplay interms of developer code readibility -> 
+2. Browser SEO -> 
+
+Section
+Footer 
+Header
+Nav
+Aside
+Article
+figure
+
+Image indepth
+1. Jpg/jpeg
+2. png
+3. Svg 
+
+Separation of "concerns"
+
+Audio, Video -> Left
+Forms -> discussion (some more attributes)
+Library Project -> This a little
+
+Ensure page includes:
+semantic structure
+one table
+one form
+one image banner
+one video
+
+
+
+
+id and class
+

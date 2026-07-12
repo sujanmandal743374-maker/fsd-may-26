@@ -1,0 +1,63 @@
+CSS Layout Systems – Positioning & Flexbox
+
+Positions -> 
+    5 different types of positions are available
+
+    1. Static ( default value)
+
+    We give the element certain superpowers to utilise certain css which we do not get in static
+    2. Relative
+    3. Absolute 
+    4. fixed 
+    5. sticky
+
+    Properties 
+        1. left
+        2. right
+        3. top 
+        4. bottom 
+        5. z-index
+
+Naman Jindal
+
+1. using a good css tech (flexbox, grids)
+2. good css units (px, rem, em, %, vh, vw)
+3. ux alteration (not dev dependent)
+    a. Media Query
+
+Flexbox -> 
+    display: flex
+    flex-direction 
+    flex-wrap
+
+    justify-content ->
+        center
+        right
+        left 
+        space-between
+        space-around
+        space-evenly
+    align-items ->
+
+
+    flex-direction -> row -> *********
+        justify-content -> row -> layout changes kre
+        align-items -> column -> 
+
+    flex-direction -> column -> 
+        justify-content-> column -> 
+        align-items -> row
+
+    conclusion -> 
+        justify-content does orientation along the axis and align-items does orientation perpendicualr tot he axis
+
+
+    CSS reset -> 
+        browser by defaults provide us a lot of useless css, once we are making a website 
+        end to end and very carefull thought in most scenarios we don't want the pregenerated 
+        css. So we reset a lot of CSS. And that css resetting in the start of any project 
+        is called as css reset 
+
+    
+    Mobile First Design  -> base css mobile , media query (min-width) 
+    Desktop First Design -> base css desktop, media query (max-width)

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --clr-dark: #0f172a;
+            --clr-light: #f1f5f9;
+            --clr-accent: #e11d48;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 70px 0 0 0;
+            padding: 0;
+            line-height: 1.6;
+            word-spacing: 1.4px;
+            font-family: sans-serif;
+            color: var(--clr-dark);
+            background-color: var(--clr-light);
+        }
+        .container{
+            width: 80%;
+            margin: 0 auto;
+            border: 10px solid var(--clr-accent);
+            display: grid;
+            grid-template-columns: 1fr minmax(200px, 2fr) 1fr ;
+            /* grid-template-rows: repeat(5, 100px) ;  */
+        }
+        .item{
+            padding: 8px;
+            background-color: #fb7185;
+            font-weight: 700;
+            color: var(--clr-dark);
+            border: 10px solid var(--clr-accent)
+        }
+        .item-1{
+            /* grid-row: 4/5;
+            grid-column: 3/5; */
+            /* grid-row-start: 4;
+            grid-row-end: 5;
+            grid-column-start: 3;
+            grid-column-end: 5; */
+            /* grid-area: 3/3/5/5; */
+            /* z-index: 2; */
+        }
+        .item-2{
+            background-color: red;
+            /* grid-row: span 2;
+            grid-column: span 2; */
+            /* grid-area: 3/3/4/4; */
+            z-index: 2;
+        }
+        .item-3{
+            background-color: peachpuff;
+        }
+        .item-4{
+            background-color: grey;
+        }
+        .item-5{
+            background-color: aquamarine;
+        }
+        .item-6{
+            background-color: cadetblue;
+        }
+        .item-7{
+            background-color: crimson;
+        }
+        .item-8{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item-1">1</div>
+        <div class="item item-2">2</div>
+        <div class="item item-3">3</div>
+        <div class="item item-4">4</div>
+        <div class="item item-5">5</div>
+        <div class="item item-6">6</div>
+        <div class="item item-7">7</div>
+        <div class="item item-8">8</div>
+        <div class="item item-8">8</div>
+        <div class="item item-8">8</div>
+        <div class="item item-8">8</div>
+        <div class="item item-8">8</div>
+        <div class="item item-8">8</div>
+        <div class="item item-8">8</div>
+        <div class="item item-8">8</div>
+        <div class="item item-8">8</div>
+        <div class="item item-8">8</div>
+        <div class="item item-8">8</div>
+    </div>
+</body>
+</html>

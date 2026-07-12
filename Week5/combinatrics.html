@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p{
+            background-color: yellow;
+        }
+        /* .combinator p{
+            background-color: yellow;
+        } */
+        /* div > p {
+            color: purple
+        } */
+       
+        /* div p#danger{
+            border: 4px solid purple;
+        }
+         div p.specialP.specialP2.a.b.c.d.e.f.g.h.i.j.k.l{
+            border: 2px solid red;
+        }
+        div p.specialP2{
+            border: 4px solid black;
+        } */
+
+        div ~ p{
+            background-color: purple;
+        }
+        form ~ p {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="combinator">
+        <p >Lorem, ipsum dolor.</p>
+    </div>
+    <p>Lorem, ipsum.</p>
+    <div >
+        <section>
+            <p class="specialP specialP2 a b c d e f g h i j k l" id="danger">Lorem ipsum dolor sit amet.</p>
+            <p class="specialP2">Lorem ipsum dolor sit amet.</p>
+        </section>
+    </div>
+    <section class="combinator">
+        <p>Lorem, ipsum.</p>
+    </section> -->
+
+    <div>
+        <div>random</div>
+        <p>Lorem, ipsum.</p>
+        <p>Lorem, ipsum.</p>
+    </div>
+
+    <p>Lorem, ipsum dolor.</p>
+    <p>Lorem, ipsum dolor.</p>
+
+    <div>
+        <form action=""></form>
+        <p>para 5</p>
+        <p>para 6</p>
+    </div>
+    <section>section</section>
+    <p>para 7</p>
+    <p>para 8</p>
+
+    
+</body>
+</html>

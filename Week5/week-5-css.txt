@@ -1,0 +1,82 @@
+CSS Basics – Styling Your Web Pages
+
+to include a css we have 3 ways we can do so 
+1. Inline
+2. Internal
+3. External
+
+In case of conflic only the conflicting properties gets effected. 
+
+Specificity 
+
+inline > (internal, external)
+
+Throughout html,css, js , react 
+    whenver we are talking about class and id with respect to frotnend
+
+    class -> .
+    id -> #
+
+Specificity between 
+    tag, class, id
+
+    id > class > tag
+
+
+To apply css on any particular area we have 3 major ways to deal with it 
+Selectors 
+Basic Selectors | foundational selectors 
+    1. Tag 
+    2. Class 
+    3. Id
+
+Complex Selectors 
+    1. Universal selector 
+
+Question:::::
+Make a webpage 
+    1. With 6 heading h1 to h6
+    2. h1, h3, h5 tags should have font size 50px
+    3. have 2 paragraph tags 
+    4. All tags should have underline in them
+    5. 1 paragraph and h1 tag should have a background color of purple.
+    6. Use external css only 
+
+Colors 
+    We can provide color in variosu formats 
+    1. One is simple color -> red, green, blue, lightblue
+        Limitation -> cannot achieve very diverese combination, limited to a certain set of Colors
+    2. Hex format -> # and 6 digits
+
+        00 is starting which represents black and it can go upto ff which stands for white
+
+    3. RGB 
+
+    4. more ways as well which are less used, hsl hcl
+
+
+
+
+CSS Layout & Interaction – 
+Box Model, Display, and Pseudo-Classes
+
+Display:
+    inline 
+    block 
+    inline-block 
+    none
+
+Visibility: hidden
+
+Excercise convert div to h1 
+Hint: dev tools
+Output: both div and h1 would exactly look alike
+
+Combinatrics -> 
+
+The more the class is specific more Specificity it will hold
+
+Adjacent Selector ( + )
+General Sibling Selector  ( ~ )
+
+
