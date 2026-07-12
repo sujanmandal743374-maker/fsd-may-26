@@ -10,3 +10,4 @@
 Homework -> 
 1. Sticky vs fixed 
 2. how to integrate font awesome icons
+3. Netflix homepage clone
