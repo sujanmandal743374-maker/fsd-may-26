@@ -5,6 +5,8 @@
 5. Forms few more attributes (study during JS forms)
 6. CSS units
 7. not or or in media queries
+8. gitignore 
+9. readme.md
 
 
 Homework -> 
