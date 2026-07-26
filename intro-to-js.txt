@@ -1,0 +1,14 @@
+Introduction to JavaScript & Basics
+1. loop
+2. if and else 
+3. array 
+4. object 
+5. variables 
+6. operators 
+
+
+!= is opposite of ==
+!== is opposite of ===
+
+== output is true -> != output will be ? false
+=== output is true => !== output will be false

@@ -7,9 +7,11 @@
 7. not or or in media queries
 8. gitignore 
 9. readme.md
+10. Deep discussion about == and ===
 
 
 Homework -> 
 1. Sticky vs fixed 
 2. how to integrate font awesome icons
 3. Netflix homepage clone
+
